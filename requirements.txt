@@ -1,4 +1,4 @@
-Flask
 SQLAlchemy
 pandas
 gunicorn
+streamlit
