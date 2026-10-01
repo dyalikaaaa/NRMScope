@@ -68,5 +68,15 @@ def get_dashboard_data():
         },
         'detail_data': data
     })
-
     
+    import streamlit as st
+
+# Konfigurasi Halaman
+st.set_page_config(page_title="NRMScope", layout="wide")
+
+# Tampilan Utama
+st.title("Aplikasi NRMScope")
+st.write("Aplikasi berhasil berjalan dan terhubung dengan Streamlit Cloud!")
+
+# Tambahkan komponen sesuai kebutuhan aplikasi Anda
+st.info("Silakan tambahkan fitur atau tampilan data Anda di sini.")
